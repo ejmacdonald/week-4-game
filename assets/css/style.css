@@ -1,3 +1,17 @@
 #container {
 	color: orange;
 }
+
+.gem {
+	width: 80px;
+}
+
+.scoreboard {
+	width: 80px;
+	margin: 0px;
+	float: left;
+}
+
+/*.jumbotron {
+	height: 180px;
+}*/
