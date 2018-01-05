@@ -35,9 +35,9 @@ function check_results() {
 
 //clears everything, sets random values for target and gems
 function reset_game(){
-		target_number = Math.floor((Math.random() * 40) + 10);
+		target_number = Math.floor((Math.random() * 102) + 19);
 		for (i=0; i<=3; i++) {
-			buttonArray[i]=Math.floor((Math.random() * 10) + 1);
+			buttonArray[i]=Math.floor((Math.random() * 12) + 1);
 		}
 		console.log("target_number: " + target_number);
 		console.log("buttonArray: " + buttonArray);
